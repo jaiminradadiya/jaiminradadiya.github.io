@@ -5,60 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radadiya Jaimin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        header:hover, section:hover, footer:hover {
+            transform: scale(1.02);
+        }
+        img {
+            border-radius: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            color: #333;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <center><h1>Radadiya Jaimin</h1></center>
-       <center> <p>I Like to Coading :)</p>
-        <img src="photo.jpg" alt="My Photo" height="125px" width="200px"></center>
-        <hr>
+        <h1>Radadiya Jaimin</h1>
+        <p>I Like to Coding :)</p>
+        <img src="photo.jpg" alt="My Photo" height="125px" width="200px">
     </header>
     
-        <section>
-        <center><h1>Education</h1></center>
+    <section>
+        <h2>Education</h2>
         <ul>
-            <li><b>10<sup>th</sup> Class</b> 84%</li>
-            <li><b>12<sup>th</sup> Class</b> 93%</li>
-            <li><b>BCA</b> 8.86 (CGPA)</li>
+            <li><b>10<sup>th</sup> Class</b> - 84%</li>
+            <li><b>12<sup>th</sup> Class</b> - 93%</li>
+            <li><b>BCA</b> - 8.86 (CGPA)</li>
         </ul>
-        </section>
-        <hr>    
+    </section>
     
-            <section>
-        <center><h2>Skills</h2></center>
+    <section>
+        <h2>Skills</h2>
         <ul>
             <li>HTML, CSS, JavaScript, Bootstrap</li>
             <li>ReactJS</li>
             <li>NodeJs, MySQL, MongoDB</li>
         </ul>
-        </section>
-        <hr>
+    </section>
     
-            <section>
-        <center><h2>Hobbies</h2></center>
+    <section>
+        <h2>Hobbies</h2>
         <ul>
             <li>Reading</li>
             <li>Playing</li>
             <li>Coding</li>
         </ul>
-        </section>
-        <hr>
-        <section>
-       <center> <h2>Achievement</h2></center>
+    </section>
+    
+    <section>
+        <h2>Achievements</h2>
         <ul>
-            <li>Codechef Problem Solving</li>
-            <li>Playing </li>
+            <li>CodeChef Problem Solving</li>
+            <li>Playing</li>
             <li>Coding</li>
-    
         </ul>
-        </section>
-        <hr>
+    </section>
     
-        <footer>
-       <center> <h2>Contact Me</h2></center>
+    <footer>
+        <h2>Contact Me</h2>
         <ul>
-            <li><b>Email :</b>radadiyajaimin31@gmail.com</li>
-            <li><a href="https://www.linkedin.com/in/radadiya-jaimin/">Linkedin</a></li>
+            <li><b>Email :</b> radadiyajaimin31@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/radadiya-jaimin/">LinkedIn</a></li>
         </ul>
         <h4>Made with &hearts; by Me</h4>
     </footer>
